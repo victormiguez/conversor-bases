@@ -1,0 +1,24 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+.input-wrapper {
+  float: left;
+  margin-bottom: 10px;
+}
+.input-wrapper input {
+  width: 100%;
+}
+.input-wrapper label {
+  display: block;
+}
+.base {
+  width: 10%;
+}
+.numero {
+  width: 89%;
+  margin-left: 1%;
+}
+.resultado input{
+  border: 0;
+}

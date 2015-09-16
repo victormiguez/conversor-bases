@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Conversor de bases</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <form name="conversor" action="#">
+      <div class="input-wrapper base">
+        <label for="base">Base:</label>
+        <input type="number" name="base" id="base">
+      </div>
+      
+      <div class="input-wrapper numero">
+        <label for="numero">Número decimal:</label>
+        <input type="text" name="numero" id="numero" maxlength="20" />
+      </div>
+      
+      <div class="resultado">
+        Resultado: <input name="resultado" type="text" size="99" readonly="readonly" />
+      </div>
+    </form>
+
+    <script src="conversor.js"></script>
+  </body>
+</html>
